@@ -33,4 +33,4 @@ El buscador necesita Python 3 (sin dependencias): `python scripts/search.py "<co
 
 ## Licencia
 
-MIT. Copyright original de Next Level Builder (ver `LICENSE`). `review-modes.md` adapta contenido de Impeccable bajo Apache-2.0 (ver `THIRD_PARTY_NOTICES.md`).
+MIT. Copyright original de Next Level Builder (ver `LICENSE`). `review-modes.md` adapta contenido de Impeccable bajo Apache-2.0 (ver `THIRD_PARTY_NOTICES.md` y `LICENSE-APACHE`).

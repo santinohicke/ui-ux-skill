@@ -1,6 +1,6 @@
 ---
 name: ui-ux
-description: "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings, 141 UX guidelines, 105 icons, 20 GSAP presets, 25 chart types, and 23 stacks."
+description: "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, critiques/audits, polish and hardening passes, UX copy, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings, 141 UX guidelines, 105 icons, 20 GSAP presets, 25 chart types, and 23 stacks."
 ---
 
 # UI/UX Pro Max - Design Intelligence
@@ -29,6 +29,8 @@ Skip it for pure backend logic, API/database design, non-visual performance work
 | 8 | Forms & Feedback | MEDIUM | `ux` | Visible labels, Error near field, Helper text, Progressive disclosure | Placeholder-only label, Errors only at top, Overwhelm upfront |
 | 9 | Navigation Patterns | HIGH | `ux` | Predictable back, Bottom nav ≤5, Deep linking | Overloaded nav, Broken back behavior, No deep links |
 | 10 | Charts & Data | LOW | `chart` | Legends, Tooltips, Accessible colors | Relying on color alone to convey meaning |
+
+**Surface mode + work commands:** before designing, pick the surface mode (Persuade / Operate / Read / Experience). When the user asks to critique, polish, harden, clarify copy, or make a UI bolder, quieter or simpler, follow that playbook. Both live in `references/review-modes.md`, together with the anti-generic floor (patterns that make UI look template- or AI-made) to check before delivery.
 
 **Craft tips (always apply):** for visual polish and micro-interactions (layered shadows, tinted grays, tinted text on color, one hue per color, button text size, side padding, headline leading, heading spacing, baseline/number alignment, sentence case, action-verb buttons, pulse/crossfade/rubber-band/mask/staging motion), read `references/craft-tips.md` when building any screen and run its checklist before delivery.
 

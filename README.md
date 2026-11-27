@@ -11,7 +11,13 @@ Base: [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (
 - **Visual:** sombras en capas, párrafos alineados a la izquierda, grises con tinte, texto teñido sobre color, un tono por color, texto del botón ≈ mitad de su alto, más padding a los costados, interlineado ajustado en títulos, más espacio arriba de los títulos, gap = alto del texto chico, números alineados a la derecha, alineación por línea base, sentence case, botones que dicen la acción.
 - **Movimiento:** pulso para confirmar, crossfade de íconos con blur, efecto rubber band en los bordes, revelar con máscaras, poner el foco en escena.
 
-El `SKILL.md` lo referencia para que se lea siempre al construir una pantalla y se corra su checklist antes de entregar.
+`skills/ui-ux/references/review-modes.md`: lo mejor de [Impeccable](https://github.com/pbakaus/impeccable) (Apache-2.0) que la base no cubría:
+
+- **Modos de pantalla:** Persuade / Operate / Read / Experience, para decidir cuánto arriesgar.
+- **Comandos de trabajo:** `critique` (carga cognitiva + 10 heurísticas de Nielsen con puntaje 0–4 + severidad P0–P3), `polish`, `harden` (casos extremos, i18n, errores), `clarify` (textos de UX), `bolder` / `quieter` / `distill`.
+- **Piso anti look genérico:** patrones que delatan una UI hecha con plantilla o IA, y personalizar las superficies del navegador (selección, scrollbar, caret, foco).
+
+El `SKILL.md` referencia ambos archivos para que se lea siempre al construir una pantalla y se corra su checklist antes de entregar.
 
 ## Instalar
 
@@ -27,4 +33,4 @@ El buscador necesita Python 3 (sin dependencias): `python scripts/search.py "<co
 
 ## Licencia
 
-MIT. Copyright original de Next Level Builder (ver `LICENSE`); los agregados también son MIT.
+MIT. Copyright original de Next Level Builder (ver `LICENSE`). `review-modes.md` adapta contenido de Impeccable bajo Apache-2.0 (ver `THIRD_PARTY_NOTICES.md`).
